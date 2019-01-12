@@ -19,6 +19,10 @@
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="favicon.png">
+    <link rel="apple-touch-icon image_src" href="favicon.png">
+
     <!-- Custom fonts for this template -->
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
@@ -47,6 +51,9 @@
               <a class="nav-link js-scroll-trigger" href="#portfolio">Serviços</a>
             </li>
             <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#curso"><i class="fa fa-star"></i> Curso <i class="fa fa-star"></i> </a>
+            </li>
+            <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#localizacao">Localização</a>
             </li>
             <li class="nav-item">
@@ -69,7 +76,7 @@
         <div class="intro-text">
           <div class="intro-lead-in">Jake Esmalteria</div>
           <div class="intro-heading text-uppercase">Colorir é nossa arte</div>
-          <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Vamos lá</a>
+          <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#portfolio">Vamos lá</a>
         </div>
       </div>
     </header>
@@ -127,48 +134,6 @@
               <p class="text-muted">Chega de unhas calejadas dos pratos</p>
             </div>
           </div>
-          <div class="col-md-4 col-sm-6 portfolio-item">
-            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
-              <div class="portfolio-hover">
-                <div class="portfolio-hover-content">
-                  <i class="fas fa-plus fa-3x"></i>
-                </div>
-              </div>
-              <img class="img-fluid" src="img/portfolio/04-thumbnail.jpg" alt="">
-            </a>
-            <div class="portfolio-caption">
-              <h4>Lorem</h4>
-              <p class="text-muted">Lorem</p>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-6 portfolio-item">
-            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
-              <div class="portfolio-hover">
-                <div class="portfolio-hover-content">
-                  <i class="fas fa-plus fa-3x"></i>
-                </div>
-              </div>
-              <img class="img-fluid" src="img/portfolio/05-thumbnail.jpg" alt="">
-            </a>
-            <div class="portfolio-caption">
-              <h4>Ipsum</h4>
-              <p class="text-muted">Ipsum</p>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-6 portfolio-item">
-            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
-              <div class="portfolio-hover">
-                <div class="portfolio-hover-content">
-                  <i class="fas fa-plus fa-3x"></i>
-                </div>
-              </div>
-              <img class="img-fluid" src="img/portfolio/06-thumbnail.jpg" alt="">
-            </a>
-            <div class="portfolio-caption">
-              <h4>Dolor</h4>
-              <p class="text-muted">Dolor</p>
-            </div>
-          </div>
         </div>
       </div>
     </section>
@@ -178,9 +143,13 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">Localização</h2>
-            <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+            <h2 class="section-heading text-uppercase" style="margin-bottom:50px">Localização</h2>
           </div>
+          <div class="col-md-6">
+            <h3 class="text-center" style="margin-top:4.2em"><i class="fas fa-map-marker-alt" style="color:red"></i>    Jake Esmalteria</h3>
+            <p class="text-center">Rua Henrique Dias, Nº16<br>Engenho Maranguape - Paulista - PE</p>
+          </div>
+          <div class="col-sm-6" id="map"></div>
         </div>
       </div>
     </section>
@@ -195,63 +164,15 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-sm-4">
+          <div class="col-lg-12">
             <div class="team-member">
               <img class="mx-auto rounded-circle" src="img/team/1.jpg" alt="">
-              <h4>Maria Pintadinha</h4>
-              <p class="text-muted">Derrubou todos os esmaltes</p>
+              <h4>Jakeline Ferreira</h4>
+              <p class="text-muted">Instrutora e Manicure</p>
               <ul class="list-inline social-buttons">
                 <li class="list-inline-item">
-                  <a href="#">
-                    <i class="fab fa-twitter"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="#">
-                    <i class="fab fa-facebook-f"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="#">
-                    <i class="fab fa-instagram"></i>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-sm-4">
-            <div class="team-member">
-              <img class="mx-auto rounded-circle" src="img/team/2.jpg" alt="">
-              <h4>João Bobão</h4>
-              <p class="text-muted">Teve uma crise nervosa, ao ver oque Maria fez</p>
-              <ul class="list-inline social-buttons">
-                <li class="list-inline-item">
-                  <a href="#">
-                    <i class="fab fa-twitter"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="#">
-                    <i class="fab fa-facebook-f"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="#">
-                    <i class="fab fa-instagram"></i>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-sm-4">
-            <div class="team-member">
-              <img class="mx-auto rounded-circle" src="img/team/3.jpg" alt="">
-              <h4>Jackie Chan</h4>
-              <p class="text-muted">Ela só pode ter decêndencia budista,<br> olha que mulher calma</p>
-              <ul class="list-inline social-buttons">
-                <li class="list-inline-item">
-                  <a href="#">
-                    <i class="fab fa-twitter"></i>
+                  <a href="https://api.whatsapp.com/send?phone=5581986234361">
+                    <i class="fab fa-whatsapp"></i>
                   </a>
                 </li>
                 <li class="list-inline-item">
@@ -331,7 +252,7 @@
           <div class="col-md-4">
             <ul class="list-inline social-buttons">
               <li class="list-inline-item">
-                <a href="#">
+                <a href="https://www.instagram.com/jakeesmalteria/">
                   <i class="fab fa-instagram"></i>
                 </a>
               </li>
@@ -341,8 +262,8 @@
                 </a>
               </li>
               <li class="list-inline-item">
-                <a href="#">
-                  <i class="fab fa-linkedin-in"></i>
+                <a href="https://api.whatsapp.com/send?phone=5581995389478">
+                  <i class="fab fa-whatsapp"></i>
                 </a>
               </li>
             </ul>
@@ -570,7 +491,22 @@
 
     <!-- Custom scripts for this template -->
     <script src="js/agency.min.js"></script>
-
+    <!-- Maps -->
+    <script>
+      function initMap()
+      {
+        // The location of Uluru
+        var uluru = {lat: -7.9171217, lng: -34.8453048};
+        // The map, centered at Uluru
+        var map = new google.maps.Map(
+        document.getElementById('map'), {zoom: 17, center: uluru});
+        // The marker, positioned at Uluru
+        var marker = new google.maps.Marker({position: uluru, map: map});
+      }
+  </script>
+  <script async defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCsQiM7Pv08ZB4sVrif8QRUOT6qmGKsSoI&callback=initMap">
+  </script>
   </body>
 
 </html>

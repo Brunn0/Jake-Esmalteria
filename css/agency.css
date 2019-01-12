@@ -163,7 +163,11 @@ img::-moz-selection {
     padding: 12px 0;
   }
 }
-
+#map {
+  z-index: auto;
+  height: 400px;  /* The height is 400 pixels */
+  width: 100%;  /* The width is the width of the web page */
+}
 header.masthead {
   text-align: center;
   color: white;
